@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Banner */
+.hero-banner {
+  position: relative;
+  text-align: center;
+  padding: 40px 0;
+  background-image: linear-gradient(to bottom right, #86755e, #00d4ff);
+  color: #fff;
+}
+
+.hero-logo {
+  height: 100px;
+}
+
+.hero-banner h1 {
+  font-size: 36px;
+}
+
+.hero-banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.btn-login,
+.btn-register {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f79256;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover,
+.btn-register:hover {
+  background-color: #fbd1a2;
+}
+
+/* Promotions */
+.promotions {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promotion {
+  width: calc(50% - 10px);
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.promotion img {
+  width: 100%;
+  height: auto;
+}
+
+.promotion h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.promotion p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Course Reviews */
+.course-reviews {
+  margin-bottom: 40px;
+}
+
+.course-reviews h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 0.7em;
+}
+
+.review {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.review img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.review h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Teachers */
+.teachers {
+  margin-left: 0.7em;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #555;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: none;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .promotions {
+    flex-wrap: wrap;
+  }
+
+  .promotion {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
